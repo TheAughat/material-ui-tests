@@ -22,7 +22,7 @@ function Create() {
             </Typography>
 
             <Button type='submit' color='secondary' variant='contained'
-                disableElevation onClick={() => console.log('click!')}
+                onClick={() => console.log('click!')}
                 startIcon={<KeyboardArrowRightIcon/>} endIcon={<SendIcon/>}>Submit</Button>
         </Container>
     );
